@@ -1,0 +1,9 @@
+		            Red	Green	Blue
+Green Main		    56	216	129
+Narbar		        35	45	83
+Light Blue		    101	133	255
+Pink		        177	29	214
+Dark Blue		    22	29	58
+White		        255	255	255
+Card Colour		    31	39	72
+Quick Link card		49	59	101

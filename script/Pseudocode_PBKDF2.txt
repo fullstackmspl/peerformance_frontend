@@ -1,0 +1,32 @@
+------------------------------------------------------------------------------------------------------------
+1. account creation (frond end)
+
+name:admin
+email:admin@peerformance.co.uk
+password:12345
+
+2. Send data to the backend
+
+3. Generate AES key
+
+// a. Generate a random 128-bit key (k1), a random 128-bit IV, and a random salt (64 bits is probably sufficient).
+function generate_aes_key(get_user_password){
+ variable random_bit_key = generate() (k1)
+ variable random_bit_salt = generate()
+ variable random_IV = generate()
+
+// b. How do we get k2 ? -> k2 ?
+variable key = get_user_password + random_bit_salt;
+
+// // c. Use k2 to AES encrypt k1 using the random IV.;
+variable aes_key = key + random_IV
+
+
+return aes_key
+}
+
+4. // Encryption / Decryption:
+
+a. Use PBKDF2 + your password and the salt from the file to regenerate k2
+c. Use k2 and the IV from the file to decrypt k1.
+d. Use k1 to encrypt or decrypt files.

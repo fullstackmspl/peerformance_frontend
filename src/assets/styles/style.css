@@ -1,0 +1,10 @@
+@import 'components/LabelWithQuestionMark.css';
+@import 'pages/Signup.css';
+@import 'components/TermsAndConditionsPopup.css';
+@import 'components/ConfirmationPopup.css';
+@import 'pages/Dashboard.css';
+@import 'components/ResultCalculatorPopup.css';
+
+body {
+    font-family: 'Lato', sans-serif;
+}

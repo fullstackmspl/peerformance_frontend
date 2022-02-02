@@ -1,0 +1,12 @@
+.label-question-mark-container {
+    position: relative;
+}
+
+.label-question-mark-notification {
+    position: absolute;
+    background-color: #38D982;
+    border-radius: 5px;
+    width: 75%;
+    bottom: 100%;
+    right: calc(-75% - 5px);
+}

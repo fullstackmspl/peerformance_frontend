@@ -1,0 +1,60 @@
+.group-inputs {
+    border: solid 1px #313B65;
+    border-radius: 10px;
+    background-color: #313B65;
+}
+
+.group-inputs input {
+    background-color:#192141;
+    border-color: #192141;
+    color: #FFFFFF;
+}
+
+.group-inputs input:disabled {
+    background-color:#192141;
+}
+
+.group-inputs input::placeholder {
+    color:  #8B8898;
+    opacity: 1;
+  }
+
+.group-inputs select {
+    background-color: #192141;
+    border-color: #192141;
+    color: #FFFFFF;
+    background-image: url('../../../Styleguide/icons/chevron-right.svg');
+    background-size: .7rem;
+}
+
+.group-inputs select option {
+    color: #FFFFFF;
+    background-color: #192141;
+}
+
+form .group-inputs button {
+    background-color: #4368F6;
+}
+
+.group-inputs input:focus {
+    background-color:#1F2748;
+    color: #FFFFFF;
+}
+
+.conditions-label {
+    color: #A8B0D1;
+
+}
+
+.conditions-label:hover {
+    color: #FFFFFF;
+
+}
+
+.notification-message {
+    font-size: 14px;
+}
+
+.peerformance-image {
+height: 100% ;
+}

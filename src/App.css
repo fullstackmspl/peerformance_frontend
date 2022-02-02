@@ -1,0 +1,240 @@
+html,
+body,
+#root,
+.App,
+.content {
+    height: 100%;
+    width: 100%;
+}
+
+
+.content {
+    background-image: url("./Styleguide/background.png");
+    overflow-y: auto;
+    background-size: cover;
+    /*width: 1600px;*/
+    /*height: 1080px;*/
+
+}
+
+
+body {
+    background-color: #141733 !important;
+    background-repeat: repeat-y;
+}
+
+.App {
+    color: white;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+/*.content {*/
+/*	padding: 40px 20px;*/
+/*}*/
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 0;
+}
+
+.greenMainColour {
+    color: #38d881;
+    font-size: xxx-large;
+}
+
+.navbarColour {
+    color: #232d53;
+}
+
+.lightBlueColour {
+    color: #6585ff;
+}
+
+.pinkColour {
+    color: #b11dd6;
+}
+
+.darkBlueColour {
+    color: #161d3a;
+}
+
+.cardColour {
+    color: #1f2748;
+}
+
+.quickLinkCardColour {
+    color: #313b65;
+}
+
+.backgroundColor {
+    color: #1a2141;
+}
+
+/* ----------------- scroll bar color -----------------*/
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #313b65;
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    /*background: #1F2748;*/
+    background: #636981;
+    width: 4px;
+    border-radius: 20px;
+}
+
+/* ----------------- scroll bar color -----------------*/
+
+/* ----------------- Style the tab ----------------- */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/* ----------------- Style the tab ----------------- */
+
+/* quick links start*/
+.quickLinkCircleBackGround {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.quickLinkIcon {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+basicHover:hover {
+    cursor: pointer;
+}
+
+.centerItem {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+onHover:hover {
+    background-color: #38d982;
+    color: #131833;
+    cursor: pointer;
+}
+
+/* quick links end */
+
+/* UTILITIES */
+.c-pointer {
+    cursor: pointer;
+}
+
+noPadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+a#nav-dropdown-dark-example.dropdown-toggle.nav-link {
+    color: #7B84A8;
+}
+
+a#nav-dropdown.dropdown-toggle.nav-link {
+    color: #7B84A8;
+}
+
+
+/*-----*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+#Container {
+    height: 100%;
+    color: white;
+}
+
+#Container:before {
+    content: '';
+    height: 100%;
+    float: left;
+}
+
+
+#Stretch {
+    background-color: blue;
+}
+
+#Stretch:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+#Container,
+#Container > div {
+    -moz-transform: rotateX(180deg);
+    -ms-transform: rotateX(180deg);
+    -o-transform: rotate(180deg);
+    -webkit-transform: rotateX(180deg);
+    transform: rotateX(180deg);
+}
+
+/*-----*/

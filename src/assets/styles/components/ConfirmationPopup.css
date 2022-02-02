@@ -1,0 +1,39 @@
+.confirmation-popup .modal-content {
+    background-color:#1F2748 !important;
+    border-radius: 1rem !important;
+    max-height: 90vh;
+}
+
+.confirmation-popup .modal-header {
+    border-bottom: none !important;
+}
+
+.confirmation-popup .modal-body {
+    background-color: #1F2748;
+}
+
+.confirmation-popup .modal-footer {
+    border-top: none !important;
+    justify-content: space-between !important;
+}
+.confirmation-popup .popup-title {
+    color: #FFFFFF;
+    display: block;
+}
+
+.confirmation-popup .popup-text {
+    color: #A5ACCB;
+    font-size: 1rem;
+}
+
+.confirmation-popup .confirm-popup-button {
+    background-color: transparent;
+    color: #36D881;
+    border: 1px solid #36D881;
+}
+
+.confirmation-popup .confirm-popup-button:hover{
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}

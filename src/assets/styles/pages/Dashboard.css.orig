@@ -1,0 +1,206 @@
+.studies-container {
+    height: 160px;
+    overflow-y: auto;
+    margin-left: -15px;
+}
+
+.studies-container div{
+    color: #A5ACCB;
+    cursor: pointer;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 16px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.studies-container div:hover{
+    color: #38d881;
+}
+
+.studies-container div.active{
+    color: #38d881;
+    font-weight: 500;
+}
+
+.active-studies-nav {
+    background-color: transparent;
+    border: solid 12px transparent;
+    border-radius: 10px;
+    margin-top: -19px;
+    padding-bottom: 3%;
+}
+
+.active-studies-nav > div {
+    padding-right: 6px;
+}
+
+.active-studies-nav > div > p {
+    margin-left: 2.5%;
+    color: #FE648D;
+}
+
+.active-studies-nav  hr {
+    background-color: #313B65;
+    height: 3px;
+    margin-left: -14px;
+}
+
+.active-studies-container {
+    height: 160px;
+    overflow-y: auto;
+    margin-left: -15px;
+    overflow-x: hidden;
+}
+
+.active-studies-container div:hover{
+    color: #38d881;
+}
+
+.active-studies-container div.active{
+    color: #38d881;
+    font-weight: 500;
+}
+
+.active-studies-container .text-elipsed{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.active-studies-row.row {
+    cursor: pointer;
+    color: #A5ACCB;
+    font-size: 16px;
+    margin-left: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.active-studies-nav .open-book-icon {
+    margin-left: -8%;
+    margin-right: 10px;
+}
+
+.available-studies-nav {
+    background-color: #1F2748;
+    border: solid 12px #1F2748;
+    border-radius: 10px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.available-studies-nav .search-icon {
+    background-color: #38D98255;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.studies-horizontal-line {
+    background-color: #313B65;
+    height: 0.9px;
+    margin: 2px -18px 10px -36px ;
+}
+
+.queued-studies-nav {
+    background-color: #1F2748;
+    border: solid 12px #1F2748;
+    border-radius: 10px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.queued-studies-nav > div {
+    padding-right: 6px;
+}
+
+.queued-studies-nav .book-with-plus-icon {
+    background-color: #38D98255;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+} 
+
+.chart-container {
+    position: relative;
+}
+
+.chart-background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #1F2748CC;
+}
+
+.chart-background-content {
+   display: flex;
+   flex-direction: column;
+   height: 100%;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.chart-background-content div {
+    font-size: 20px;
+    margin-top: 20px;
+    width: 40%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.chart-background-content div:hover {
+    text-decoration: underline;
+}
+
+.subscribe-button {
+    background-color: #4368F6;
+    color: white;
+    width: 190px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+}
+
+.progress-bar-container {
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background-color: #1F2748;
+    border-radius: 5px;
+    border: none;
+}
+
+.progress-bar-container.negative {
+    border: 1px solid #A54D72;
+}
+
+.progress-bar-component{
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    height: 10px;
+    background-color: #38D982;
+    border-radius: inherit;
+}
+
+.progress-bar-container.negative div.progress-bar-component{
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    left: unset;
+}
+
+#user-progres-bar .progress-bar-component {
+    background-color: #38D982;
+}
+
+#industry-progres-bar .progress-bar-component {
+    background-color: #6585ff;
+}
